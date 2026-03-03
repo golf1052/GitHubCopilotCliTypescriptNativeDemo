@@ -1,0 +1,27 @@
+{
+  "name": "githubcopilotclitypescriptnativedemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/lsp-inspector.js",
+  "scripts": {
+    "build": "tsgo",
+    "start": "node dist/lsp-inspector.js --lsp -stdio",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/golf1052/GitHubCopilotCliTypescriptNativeDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/golf1052/GitHubCopilotCliTypescriptNativeDemo/issues"
+  },
+  "homepage": "https://github.com/golf1052/GitHubCopilotCliTypescriptNativeDemo#readme",
+  "dependencies": {
+    "@typescript/native-preview": "^7.0.0-dev.20260303.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.3"
+  }
+}

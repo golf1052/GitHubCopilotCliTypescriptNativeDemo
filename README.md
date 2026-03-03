@@ -39,7 +39,7 @@ Add the following configuration (replace `<path-to-this-repo>` with the absolute
   "lspServers": {
     "tsgo-inspector": {
       "command": "node",
-      "args": ["<path-to-this-repo>/``GitHubCopilotCliTypescriptNativeDemo/dist/lsp-inspector.js", "--lsp", "-stdio"],
+      "args": ["<path-to-this-repo>/GitHubCopilotCliTypescriptNativeDemo/dist/lsp-inspector.js", "--lsp", "-stdio"],
       "fileExtensions": {
         ".ts": "typescript",
         ".tsx": "typescriptreact",
